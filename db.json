@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Virat Kohli",
+      "age": "22",
+      "email": "virat@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Sachin",
+      "age": "50",
+      "email": "sachin@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Dhoni",
+      "age": "40",
+      "email": "dhoni@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Siraj",
+      "age": "28",
+      "email": "siraj@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Rohit Sharma",
+      "age": "32",
+      "email": "rohit@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Rahul",
+      "age": "35",
+      "email": "rahul@gmail.com"
+    }
+  ]
+}
