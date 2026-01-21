@@ -1,40 +1,115 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Virat Kohli",
-      "age": "22",
-      "email": "virat@gmail.com"
-    },
-    {
-      "id": 2,
-      "name": "Sachin",
-      "age": "50",
-      "email": "sachin@gmail.com"
-    },
-    {
-      "id": 3,
-      "name": "Dhoni",
-      "age": "40",
-      "email": "dhoni@gmail.com"
-    },
-    {
-      "id": 4,
-      "name": "Siraj",
-      "age": "28",
-      "email": "siraj@gmail.com"
-    },
-    {
-      "id": 5,
-      "name": "Rohit Sharma",
-      "age": "32",
-      "email": "rohit@gmail.com"
-    },
-    {
-      "id": 6,
-      "name": "Rahul",
-      "age": "35",
-      "email": "rahul@gmail.com"
-    }
-  ]
+  "restaurants": [
+    { "id": 1, "name": "Spice Hub", "rating": 4.5, "deliveryTime": "30 mins", "image": "https://via.placeholder.com/300x200?text=Spice+Hub" },
+    { "id": 2, "name": "Pizza Point", "rating": 4.2, "deliveryTime": "25 mins", "image": "https://via.placeholder.com/300x200?text=Pizza+Point" },
+    { "id": 3, "name": "Burger Town", "rating": 4.0, "deliveryTime": "20 mins", "image": "https://via.placeholder.com/300x200?text=Burger+Town" },
+    { "id": 4, "name": "Biryani Palace", "rating": 4.6, "deliveryTime": "35 mins", "image": "https://via.placeholder.com/300x200?text=Biryani+Palace" },
+    { "id": 5, "name": "Chinese Wok", "rating": 4.1, "deliveryTime": "28 mins", "image": "https://via.placeholder.com/300x200?text=Chinese+Wok" },
+    { "id": 6, "name": "South Spice", "rating": 4.4, "deliveryTime": "30 mins", "image": "https://via.placeholder.com/300x200?text=South+Spice" },
+    { "id": 7, "name": "Roll Nation", "rating": 4.0, "deliveryTime": "22 mins", "image": "https://via.placeholder.com/300x200?text=Roll+Nation" },
+    { "id": 8, "name": "Tandoori Flames", "rating": 4.3, "deliveryTime": "32 mins", "image": "https://via.placeholder.com/300x200?text=Tandoori+Flames" },
+    { "id": 9, "name": "Street Food Adda", "rating": 4.1, "deliveryTime": "18 mins", "image": "https://via.placeholder.com/300x200?text=Street+Food+Adda" },
+    { "id": 10, "name": "Healthy Bites", "rating": 4.6, "deliveryTime": "26 mins", "image": "https://via.placeholder.com/300x200?text=Healthy+Bites" },
+    { "id": 11, "name": "Pasta La Vista", "rating": 4.2, "deliveryTime": "24 mins", "image": "https://via.placeholder.com/300x200?text=Pasta+La+Vista" },
+    { "id": 12, "name": "Cafe Coffee Day", "rating": 4.0, "deliveryTime": "20 mins", "image": "https://via.placeholder.com/300x200?text=Cafe+Coffee+Day" },
+    { "id": 13, "name": "Dessert Hub", "rating": 4.7, "deliveryTime": "15 mins", "image": "https://via.placeholder.com/300x200?text=Dessert+Hub" },
+    { "id": 14, "name": "Shawarma King", "rating": 4.3, "deliveryTime": "23 mins", "image": "https://via.placeholder.com/300x200?text=Shawarma+King" },
+    { "id": 15, "name": "Punjabi Dhaba", "rating": 4.5, "deliveryTime": "34 mins", "image": "https://via.placeholder.com/300x200?text=Punjabi+Dhaba" }
+  ],
+
+  "menus": [
+  { "id": 1, "restaurantId": 1, "name": "Paneer Butter Masala", "price": 220 },
+  { "id": 2, "restaurantId": 1, "name": "Shahi Paneer", "price": 240 },
+  { "id": 3, "restaurantId": 1, "name": "Dal Makhani", "price": 180 },
+  { "id": 4, "restaurantId": 1, "name": "Butter Naan", "price": 40 },
+  { "id": 5, "restaurantId": 1, "name": "Jeera Rice", "price": 130 },
+
+  { "id": 6, "restaurantId": 2, "name": "Margherita Pizza", "price": 299 },
+  { "id": 7, "restaurantId": 2, "name": "Farmhouse Pizza", "price": 349 },
+  { "id": 8, "restaurantId": 2, "name": "Cheese Burst Pizza", "price": 399 },
+  { "id": 9, "restaurantId": 2, "name": "Garlic Bread", "price": 149 },
+  { "id": 10, "restaurantId": 2, "name": "Stuffed Pizza", "price": 369 },
+
+  { "id": 11, "restaurantId": 3, "name": "Cheese Burger", "price": 149 },
+  { "id": 12, "restaurantId": 3, "name": "Chicken Burger", "price": 179 },
+  { "id": 13, "restaurantId": 3, "name": "Veg Burger", "price": 129 },
+  { "id": 14, "restaurantId": 3, "name": "French Fries", "price": 99 },
+  { "id": 15, "restaurantId": 3, "name": "Cold Drink", "price": 60 },
+
+  { "id": 16, "restaurantId": 4, "name": "Chicken Biryani", "price": 249 },
+  { "id": 17, "restaurantId": 4, "name": "Veg Biryani", "price": 199 },
+  { "id": 18, "restaurantId": 4, "name": "Egg Biryani", "price": 219 },
+  { "id": 19, "restaurantId": 4, "name": "Raita", "price": 40 },
+  { "id": 20, "restaurantId": 4, "name": "Kebab", "price": 199 },
+
+  { "id": 21, "restaurantId": 5, "name": "Veg Hakka Noodles", "price": 179 },
+  { "id": 22, "restaurantId": 5, "name": "Chicken Noodles", "price": 209 },
+  { "id": 23, "restaurantId": 5, "name": "Fried Rice", "price": 169 },
+  { "id": 24, "restaurantId": 5, "name": "Manchurian", "price": 159 },
+  { "id": 25, "restaurantId": 5, "name": "Spring Roll", "price": 120 },
+
+  { "id": 26, "restaurantId": 6, "name": "Masala Dosa", "price": 120 },
+  { "id": 27, "restaurantId": 6, "name": "Plain Dosa", "price": 90 },
+  { "id": 28, "restaurantId": 6, "name": "Idli Sambhar", "price": 90 },
+  { "id": 29, "restaurantId": 6, "name": "Vada", "price": 70 },
+  { "id": 30, "restaurantId": 6, "name": "Uttapam", "price": 130 },
+
+  { "id": 31, "restaurantId": 7, "name": "Veg Roll", "price": 110 },
+  { "id": 32, "restaurantId": 7, "name": "Chicken Roll", "price": 150 },
+  { "id": 33, "restaurantId": 7, "name": "Paneer Roll", "price": 140 },
+  { "id": 34, "restaurantId": 7, "name": "Egg Roll", "price": 130 },
+  { "id": 35, "restaurantId": 7, "name": "Double Roll", "price": 170 },
+
+  { "id": 36, "restaurantId": 8, "name": "Tandoori Chicken", "price": 299 },
+  { "id": 37, "restaurantId": 8, "name": "Paneer Tikka", "price": 249 },
+  { "id": 38, "restaurantId": 8, "name": "Chicken Tikka", "price": 269 },
+  { "id": 39, "restaurantId": 8, "name": "Butter Chicken", "price": 259 },
+  { "id": 40, "restaurantId": 8, "name": "Rumali Roti", "price": 30 },
+
+  { "id": 41, "restaurantId": 9, "name": "Pav Bhaji", "price": 120 },
+  { "id": 42, "restaurantId": 9, "name": "Vada Pav", "price": 50 },
+  { "id": 43, "restaurantId": 9, "name": "Samosa", "price": 30 },
+  { "id": 44, "restaurantId": 9, "name": "Bhel Puri", "price": 70 },
+  { "id": 45, "restaurantId": 9, "name": "Sev Puri", "price": 80 },
+
+  { "id": 46, "restaurantId": 10, "name": "Grilled Salad", "price": 199 },
+  { "id": 47, "restaurantId": 10, "name": "Protein Bowl", "price": 249 },
+  { "id": 48, "restaurantId": 10, "name": "Fruit Salad", "price": 149 },
+  { "id": 49, "restaurantId": 10, "name": "Smoothie", "price": 179 },
+  { "id": 50, "restaurantId": 10, "name": "Oats Meal", "price": 159 },
+
+  { "id": 51, "restaurantId": 11, "name": "White Sauce Pasta", "price": 229 },
+  { "id": 52, "restaurantId": 11, "name": "Red Sauce Pasta", "price": 219 },
+  { "id": 53, "restaurantId": 11, "name": "Lasagna", "price": 269 },
+  { "id": 54, "restaurantId": 11, "name": "Garlic Bread", "price": 129 },
+  { "id": 55, "restaurantId": 11, "name": "Cheese Pasta", "price": 239 },
+
+  { "id": 56, "restaurantId": 12, "name": "Cappuccino", "price": 150 },
+  { "id": 57, "restaurantId": 12, "name": "Cold Coffee", "price": 170 },
+  { "id": 58, "restaurantId": 12, "name": "Espresso", "price": 130 },
+  { "id": 59, "restaurantId": 12, "name": "Latte", "price": 160 },
+  { "id": 60, "restaurantId": 12, "name": "Brownie", "price": 120 },
+
+  { "id": 61, "restaurantId": 13, "name": "Chocolate Brownie", "price": 130 },
+  { "id": 62, "restaurantId": 13, "name": "Ice Cream Sundae", "price": 160 },
+  { "id": 63, "restaurantId": 13, "name": "Cup Cake", "price": 90 },
+  { "id": 64, "restaurantId": 13, "name": "Pastry", "price": 110 },
+  { "id": 65, "restaurantId": 13, "name": "Waffle", "price": 180 },
+
+  { "id": 66, "restaurantId": 14, "name": "Chicken Shawarma", "price": 180 },
+  { "id": 67, "restaurantId": 14, "name": "Falafel Wrap", "price": 160 },
+  { "id": 68, "restaurantId": 14, "name": "Chicken Wrap", "price": 190 },
+  { "id": 69, "restaurantId": 14, "name": "Veg Shawarma", "price": 150 },
+  { "id": 70, "restaurantId": 14, "name": "Fries", "price": 90 },
+
+  { "id": 71, "restaurantId": 15, "name": "Sarson Da Saag", "price": 220 },
+  { "id": 72, "restaurantId": 15, "name": "Makki Di Roti", "price": 60 },
+  { "id": 73, "restaurantId": 15, "name": "Chole Bhature", "price": 180 },
+  { "id": 74, "restaurantId": 15, "name": "Rajma Chawal", "price": 170 },
+  { "id": 75, "restaurantId": 15, "name": "Lassi", "price": 70 }
+],
+
+
+  "cart": [],
+  "orders": []
 }
